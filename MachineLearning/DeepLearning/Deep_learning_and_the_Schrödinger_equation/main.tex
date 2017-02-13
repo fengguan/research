@@ -1,0 +1,542 @@
+%% ****** Start of file apstemplate.tex ****** %
+%%
+%%
+%%   This file is part of the APS files in the REVTeX 4 distribution.
+%%   Version 4.1r of REVTeX, August 2010
+%%
+%%
+%%   Copyright (c) 2001, 2009, 2010 The American Physical Society.
+%%
+%%   See the REVTeX 4 README file for restrictions and more information.
+%%
+%
+% This is a template for producing manuscripts for use with REVTEX 4.0
+% Copy this file to another name and then work on that file.
+% That way, you always have this original template file to use.
+%
+% Group addresses by affiliation; use superscriptaddress for long
+% author lists, or if there are many o2verlapping affiliations.
+% For Phys. Rev. appearance, change preprint to twocolumn.
+% Choose pra, prb, prc, prd, pre, prl, prstab, prstper, or rmp for journal
+%  Add 'draft' option to mark overfull boxes with black boxes
+%  Add 'showpacs' option to make PACS codes appear
+%  Add 'showkeys' option to make keywords appear
+\documentclass[aps,prl,reprint]{revtex4-1}
+%\documentclass[aps,prl,preprint,superscriptaddress]{revtex4-1}
+%\documentclass[aps,prl,reprint,groupedaddress]{revtex4-1}
+
+%%%%%%%%%STUFF KYLE ADDED THAT WILL EVENTUALLY BE REMOVED
+\usepackage[draft]{todonotes}
+%\usepackage{natbib}
+\usepackage{xspace}
+\include{./figures/results}
+\newcommand{\figref}[1]{Fig. \ref{#1}}
+
+
+
+%uncomment the next two lines to suppress section headers
+\let\section\forcesection
+
+\newcommand{\section}[1]{}
+\renewcommand{\subsection}[1]{}
+
+
+\newcommand{\wcexclude}[1]{#1}
+
+\newcommand{\exclude}[1]{}
+
+\newcommand{\SHO}{simple harmonic oscillator\xspace}
+\newcommand{\DIG}{double-well inverted Gaussian\xspace}
+\newcommand{\IW}{infinite well\xspace}
+\newcommand{\RND}{random\xspace}
+\newcommand{\DNN}{deep neural network\xspace}
+\newcommand{\CNN}{convolutional neural network\xspace}
+\newcommand{\ANN}{artificial neural network\xspace}
+\newcommand{\PDE}{partial differential equation\xspace}
+\newcommand{\MAE}{MAE\xspace}
+
+
+\newcommand{\SHOs}{simple harmonic oscillators\xspace}
+\newcommand{\DIGs}{double-well inverted Gaussians\xspace}
+\newcommand{\IWs}{infinite wells\xspace}
+\newcommand{\DNNs}{deep neural networks\xspace}
+\newcommand{\CNNs}{convolutional neural networks\xspace}
+\newcommand{\ANNs}{artificial neural networks\xspace}
+\newcommand{\PDEs}{partial differential equations\xspace}
+
+
+% You should use BibTeX and apsrev.bst for references
+% Choosing a journal automatically selects the correct APS
+% BibTeX style file (bst file), so only uncomment the line
+% below if necessary.
+%\bibliographystyle{apsrev4-1}
+\bibliographystyle{apsrev4-1}
+
+\begin{document}
+
+% Use the \preprint command to place your local institutional report
+% number in the upper righthand corner of the title page in preprint mode.
+% Multiple \preprint commands are allowed.
+% Use the 'preprintnumbers' class option to override journal defaults
+% to display numbers if necessary
+%\preprint{}
+
+%Title of paper
+\title{Deep learning and the Schr\"odinger equation}
+
+% repeat the \author .. \affiliation  etc. as needed
+% \email, \thanks, \homepage, \altaffiliation all apply to the current
+% author. Explanatory text should go in the []'s, actual e-mail
+% address or url should go in the {}'s for \email and \homepage.
+% Please use the appropriate macro foreach each type of information
+
+% \affiliation command applies to all authors since the last
+% \affiliation command. The \affiliation command should follow the
+% other information
+% \affiliation can be followed by \email, \homepage, \thanks as well.
+\author{K. Mills}
+\email[]{kyle.mills@uoit.net}
+%\homepage[]{Your web page}
+%\thanks{}
+%\altaffiliation{}
+\affiliation{University of Ontario Institute of Technology}
+
+\author{M. Spanner}
+%\email[]{Your e-mail address}
+%\homepage[]{Your web page}
+%\thanks{}
+%\altaffiliation{}
+\affiliation{National Research Council of Canada}
+
+\author{I. Tamblyn}
+\email[]{isaac.tamblyn@nrc.ca}
+%\homepage[]{Your web page}
+%\thanks{}
+%\altaffiliation{}
+\affiliation{University of Ontario Institute of Technology \& National Research Council of Canada}
+
+
+
+
+%%Address
+
+%
+% 1)) Why in 2D?
+% 3) Why only one electron?
+% 4) new word: reliability (can tell you how well it does, e.g. estimate of the error).  Finally, add the 
+% 5) generalizablilt and transferability more stress
+% 7) talk about anomoly detection
+% 10) interested in observables 
+
+
+
+
+%wordcount. Uncomment the following lines to suppress abstract, citations and bibliography so TexMaker will give more accurate word count.
+%\renewcommand{\bibliography}[1]{}
+%\renewcommand{\cite}[1]{}
+%\renewcommand{\wcexclude}[1]{}
+
+
+
+
+%Collaboration name if desired (requires use of superscriptaddress
+%option in \documentclass). \noaffiliation is required (may also be
+%used with the \author command).
+%\collaboration can be followed by \email, \homepage, \thanks as well.
+%\collaboration{}
+%\noaffiliation
+
+\date{\today}
+
+\begin{abstract}
+\wcexclude{
+We have trained a deep (convolutional) neural network to predict the ground-state energy of an electron in four classes of confining two-dimensional electrostatic potentials.  On randomly generated potentials, for which there is no analytic form for either the potential or the ground-state energy, the neural network model was able to predict the ground-state energy to within chemical accuracy, with a median absolute error of \MAErnd.  We also investigate the performance of the model in predicting other quantities such as the kinetic energy and the first excited-state energy of random potentials. While we demonstrated this approach on a simple, tractable problem, the transferability and excellent performance of the resulting model suggests further applications of deep neural networks to problems of electronic structure.
+}
+\end{abstract}
+
+% insert suggested PACS numbers in braces on next line
+\pacs{}
+% insert suggested keywords - APS authors don't need to do this
+%\keywords{}
+
+%\maketitle must follow title, authors, abstract, \pacs, and \keywords
+\wcexclude{
+   \maketitle
+}
+
+% body of paper here - Use proper section commands
+% References should be done using the \cite, \ref, and \label commands
+\section{Introduction}
+Solving the electronic structure problem for molecules, materials, and interfaces is of fundamental importance to a large number of disciplines including physics, chemistry, and materials science. 
+Since the early development of quantum mechanics, it has been noted, by Dirac among others, that ``...approximate, practical methods of applying quantum mechanics should be developed, which can lead to an explanation of the main features of complex atomic systems without too much computation" \cite{dirac}. Historically, this has meant invoking approximate forms of the underlying interactions (e.g. mean field, tight binding,
+%approximate Kohn-Sham density functional theory\cite{HohenbergKohn,Equations1965},
+etc.), or relying on phenomenological fits to a limited number of either experimental observations or theoretical results (e.g. force fields)  \cite{Cherukara2016,Riera2016,Jaramillo-Botero2014,VanBeest1990,Ponder2003,Hornak2006,cole2007}.
+
+%On one hand, approximate electronic structure methods have the advantage that they tend to retain the character of the underlying physics \todo{I don't love this sentence} (i.e. the wavefunction or ground state charge density as a fundamental object), but they are limited in their general applicability due to unfavourable scaling with respect to system size and computational cost \cite{Ratcliff2016b}.  Conversely, the extensive use of “force-fields” throughout the literature \cite{Cherukara2016,Jaramillo-Botero2014,VanBeest1990,Ponder2003,Hornak2006} have shown that model interaction potentials, informed by experiment and \textit{ab initio} data, can be very useful for investigating phenomena which occur on time- and length-scales beyond the reach of traditional electronic structure methods. Force-fields even predate the quantum theory itself; the van der Waals equation of state depends on two species-specific fitting parameters which were argued for based on microscopic atomic interactions \cite{Waals1873}. Interaction terms evocative of the van der Waals parameters appear in many modern force-fields \cite{Perez2007,Allinger1989,Weiner1984,Allinger1977,LennardJones24}.
+
+%Fundamentally, supervised machine learning means reproducing a generalized mapping of input-to-output through a series of observations \cite{Kotsiantis2007}. As such, the traditional approach of fitting of force fields to experimental or \textit{ab initio} data falls within its broad definition.  The choice of geometric descriptors used in force-field creation (e.g. bond/torsional angles) would be, in the language of machine learning, called feature selection, and the optimization of the fitting parameters is analogous to the training process.  
+
+
+%---Going to cut this paragraph a lot---here it is for historical purposes
+%An alternative approach, explored in what follows, is inspired by the recent successes of applying ``big data'' to grand challenge problems in computer vision and computational games \cite{Silver2016,Mnih2013}. Rather than seeking to simplify or approximate the interactions within a system, one trains a highly flexible, data-driven model on a large number of ``ground truth'' examples (in our case, numerical results). Here we argue that this brute force approach, which depends critically on the (testable) transferability and generalizability of the machine learning model, may offer a more scalable and parallizable approach to large-scale electronic structure problems than existing methods can offer. While many machine learning algorithms exist, we have focused on a particular class: artificial neural networks (\ANN). \ANN have the ability to ``learn'' non-linear input-to-output mappings without prior formulation of a model or functional form.
+
+
+
+Our alternative approach is inspired by the recent successful application of artifical neural networks to problems in computer vision \cite{Szegedy2014} and computational games \cite{Silver2016,Mnih2013}. Rather than seeking to simplify or approximate the interactions within a system, one trains a highly flexible model on an enormous collection of ground-truth examples in an attempt to capture a transferable set of features. A generalizable model may offer a more scalable and parallizable approach to large-scale electronic structure problems than existing methods can offer. 
+
+Generalizability implies that the fundamental approach could be applied to different classes of partial differential equations (e.g. the heat equation, or Navier-Stokes), whereas transferability implies a model trained on a particular form of \PDE will accurately and reliably predict results for examples of the same form (in our case, different confining potentials).
+
+%While many machine learning algorithms exist, we have focused on artificial neural networks (\ANN).  \ANN have the ability to ``learn'' non-linear input-to-output mappings without prior formulation of a model or functional form.
+
+The use of machine learning and \ANNs in scientific literature is not new. 
+Machine learning techniques have been used to identify phases in many-body atomic configurations \cite{Wang2016}, and are being used in materials discovery \cite{Curtarolo2003,Hautier2010,Saad2012} to assist materials scientists in efficiently targeting their search at promising material canidates. 
+In previous work, an \ANN was shown to learn the mapping of position to wavefunction
+%effectively learning to interpolate the one-dimensional Schr\"odinger equation for a given potential
+\cite{Monterola2001,Shirvany2008, Mirzaei2010}.  Each trained neural network, however, was only able to interpolate information about the \emph{specific electrostatic potential on which it was trained}. The fit was not transferable, a limitation also present in other applications of \ANNs to \PDEs \cite{VanMilligen1995,Carleo2016}.
+
+Additionally, \textit{ab initio} calculations have been used to inform \ANNs to fit high-dimensional interaction models \cite{Li2013,Behler2007,Morawietz2013,Behler2008}, and to make informed predictions about material properties \cite{Tian2017,Rupp2012}.  Although these approaches have proven to be quite powerful, the models are specific to atomic species \cite{Artrith2016} and depend on specific, non-generalizable, non-transferrable geometric features. 
+
+Furthermore, machine learning can be used to accelerate or bypass some of the heavy machinery of the \textit{ab initio} method itself. In \cite{Snyder2012}, the authors replaced the kinetic energy functional within density functional theory with a machine-learned one, and in \cite{Brockherde2016}, the authors ``learned'' the mapping from potential to electron density.
+
+
+
+
+%Combinations of \textit{ab initio} methods and machine learning can be separated into two categories.  
+
+
+
+
+
+
+
+
+%In theory, the ability of neural networks to learn intricate mappings should not be surprising.  It is known that a neural network with few layers of sufficient width, and shown sufficient examples can approximate any continuous mapping \cite{Funahashi1989,Castro2000}. The constraining factor is the amount of time and computational resources that one is willing to spend to train such a network.  Instead of having a minimal number of very wide layers, deep neural networks (\DNN) employ many sequential layers, each receiving their input from the previous layer. This allows for a hierarchy of feature detection, with each subsequent layer resolving more and more detail \cite{Bengio:2009}. Deep neural networks have proven invaluable in high-energy physics, allowing physicists to sift through massive amounts of experimental data and classify events efficiently and automatically \cite{Baldi2014,Baldi2015,Baldi2016}.  
+
+
+
+
+\begin{figure*}
+ \includegraphics[width=0.8\textwidth]{./figures/schematic_and_net.pdf}
+ \caption{In this work, we use the machinery of deep learning to learn the mapping between potential and energy, bypassing the need to numerically solve the Schr\"odinger equation, and the need for computing wavefunctions.  The neural network architecture we used (shown here) consisted primarily of convolutional layers, with two fully-connected layers at the top.\label{schematic}}
+\end{figure*}  
+ 
+ 
+
+In this Letter, we demonstrate the success of a transferrable machine learning approach, specifically a convolutional \DNN, at learning the mapping between a confining electrostatic potential and quantities such as the ground state energy, kinetic energy, and first excited-state of a bound electron. The excellent performance of our model suggests deep learning as an important new direction for treating multi-electron systems in materials.
+%, and may ultimately replace the hand-selected feature approach currently used in the development of large scale approximations (e.g. force-fields).
+
+
+%In theory, the ability of neural networks to learn intricate mappings should not be surprising.  
+It is known that a sufficiently large neural network 
+%with few layers of sufficient width, and shown sufficient examples, 
+can approximate any continuous mapping \cite{Funahashi1989,Castro2000}.  Deep neural networks attempt to reduce the computational demands of a large \ANN by employing
+%The constraining factor is the amount of time and computational resources that one is willing to spend to train such a network.  Instead of having a minimal number of very wide layers, deep neural networks (\DNN) employ 
+many sequential layers, forming a hierarchy of feature detection \cite{Bengio:2009}. Deep neural networks have proven invaluable in high-energy physics, allowing physicists to sift through massive amounts of experimental data and classify events efficiently and automatically \cite{Baldi2014,Baldi2015,Baldi2016}. 
+Deep neural networks are known to be particularly well suited to data rooted in physical origin \cite{Mehta2014,Lin2016}.
+Many recent successes involve a specific class of \DNN known as convolutional neural networks. Inspired by models of the animal visual cortex \cite{Hubel1968}, \CNNs are well suited to applications where the input data features can be represented in some form of spatially-correlated data structure, such as the pixels of an image \cite{Krizhevsky2012}.  Convolutional neural networks have repeatedly performed well in the areas of handwriting and object classification \cite{Lecun1998,Simard2003,ciresan2011flexibles,Szegedy2014}. Applications in the field of electronic structure, however, are few, although recent work focused on training against a geometric matrix representation looks particularly promising \cite{Schutt2017}.
+
+
+
+%\subsection{Artificial intelligence and machine learning}
+
+%Within the past decade, the fields of artificial intelligence, computer vision, and natural language processing have advanced at unprecedented rates. Computerized identification and classification of images, video, audio, and written text have all improved to the extent they are now part of everyday technologies such as digital assistants (e.g. Apple's Siri), predictive mobile phone keyboards \cite{SwiftKey2015}, and driver-assisted vehicles capable of automatic lane changes, self-parking, and more.  Recently, deep neural networks (\DNN) are gaining momentum as the architecture of choice for machine learning. Enthusiastic adoption of \DNN by large tech companies such as Amazon and Google, and the use of graphical processing units (GPUs) as accelerators \cite{Raina2009,Izotov2011} has lead to a competitive environment, encouraging hardware manufacturers such as NVIDIA to focus their efforts on technologies to accelerate the computations \cite{Chetlur2014}.
+
+%Recently, Google's AlphaGo reached an important milestone in the field of machine intelligence. Using a combination of \DNN and Monte Carlo tree-search, AlphaGo was able to successfully beat a 9 dan Go Grandmaster \cite{Silver2016}. This machine-over-man victory took place a full decade before many in the field of artificial intelligence had anticipated \cite{Silver2016a}. Unlike DeepBlue's \cite{Campbell2002} victory over Kasparov at chess in 1997, the game of Go cannot be won through brute force search alone \cite{Burmeister1995}. In order to win, AlphaGo was trained by watching thousands of professional human matches, and had to develop the same sense of intuition that top human players rely on to assess board position and strategy. 
+
+%Prior to its victory at Go, an earlier version of  the same AI learned and mastered 2600 classic Atari video games \cite{Mnih2013}, achieving scores well beyond what human players are capable of. Importantly, this was accomplished with no a priori knowledge of the rules or input control schemes. By simple observation and experimentation, modern AI can learn complex patterns and operations. This knowledge can then be applied to new situations with impressive results. 
+
+
+
+
+\section{Methods}
+\subsection{Training set: choice of potentials}
+
+
+
+
+Developing a deep learning model involves both the design of the network architecture and the acquisition of training data.  The latter is the most important aspect of a machine learning model, as it defines the transferability of the resulting model.  We investigated four classes of potentials: simple harmonic oscillators (SHO), ``infinite" wells (IW, i.e. ``particle in a box''), double-well inverted Gaussians (DIG), and random potentials (RND).  Each potential can be thought of as a grayscale image: a $256\times 256$ grid of floating-point numbers. 
+
+\subsection{Numerical solver}
+
+\begin{figure}
+ \includegraphics[width=0.85\columnwidth]{./figures/3d_wfn.png}
+ \caption{Wavefunctions (probability density) $|\psi_0|^2$ and the corresponding potentials $V(r)$ for two \RND potentials. \label{wavefunctions}}
+\end{figure}
+
+
+We implemented a standard finite-difference \cite{Press2007} method to solve the eigenvalue problem 
+\wcexclude{
+\begin{equation}
+\hat H\psi\equiv (\hat T + \hat V)\psi  = \varepsilon\psi
+\end{equation}
+}
+for each potential $V$ we created.  The potentials were generated with a dynamic range suitable to emit ground-state energies in the range of approximately 0 to 400 mHa.  With the \RND potentials, special care was taken to ensure that some training examples produced non-trivial wavefunctions (\figref{wavefunctions}). Atomic units are used, such that $\hbar = m_\mathrm{e} = 1$.  The potentials are represented on a square domain from $-20$ to $20$ a.u., discretized on a $256\times 256$ grid.  As the \SHO potentials have an analytic solution, we used this as reference with which to validate the accuracy of the solver. \input{figures/statements/error_solver.tex}
+%Solving the problem in two dimensions, and for a single electron allowed us to generate a large amount of training data quickly and exactly, without approximations. We anticipate that this approach would generalize to three dimensional systems, and systems of more than one electron.
+%The median absolute error between the analytic and the calculat
+We discuss the generation of all potentials further in the Supplementary Information.
+
+
+
+The \SHO presents the simplest case for a \CNN as there is an analytic solution dependent on two simple parameters ($k_x$ and $k_y$) which uniquely define the ground-state energy of a single electron ($\varepsilon_0=\frac{\hbar}{2}(\sqrt{k_x} + \sqrt{k_y})$).  Furthermore, these parameters represent a very physical and visible quantity: the curvature of the potential in the two primary axes.  Although these parameters are not provided to the neural network explicitly, the fact that a simple mapping exists means that the \CNN need only learn it to accurately predict energies.
+
+A similar situation exists for the \IW.  Like the \SHO, the ground state energy depends only on the width of the well in the two dimensions ($\varepsilon_0 = \frac{1}{2}\pi^2 \hbar^2 (L_x^{-2} +L_y^{-2}) $).  It would be no surprise if even a modest network architecture is able to accurately ``discover" this mapping.  It is even reasonable to expect that an untrained human given a ruler, sufficient examples, and an abundance of time would succeed in determining this mapping.
+
+The \DIG dataset is more complex in two respects. First, the potential, generated by summing a pair of 2D-Gaussians, depends on significantly more parameters; the depth, width, and aspect ratio of each Gaussian, as well as the relative positions of the wells will impact the ground state energy.  Furthermore, there is no known analytical solution for a single electron in a potential well of this nature.  There is, however, still a concise function which describes the underlying potential, and while this is not directly accessible to the \CNN, one must wonder if the existence of such simplifies the task of the \CNN.
+
+The \RND dataset presents the ultimate challenge.  Each \RND potential is generated by a multi-step process with randomness introduced at numerous steps along the way.  There is no closed-form equation to represent the potentials, and certainly not the eigenenergies.  A \CNN tasked with learning the solution to the Schr\"odinger equation through these examples would have to base its predictions on many individual features, truly ``learning'' the mapping of potential to energy.
+
+One might question why we did not investigate the Coulomb potential as an additional canonical example.  The singular nature of the Coulomb potential is diffult to represent within a finite dynamic range, and, more importantly, the electronic structure methods that we would ultimately seek to reproduce already have frameworks in place to deal with these singularities (e.g. pseudopotentials).
+We discuss the generation of all potentials further in the Supplementary Information.
+
+
+
+\subsection{\DNN}
+
+
+\begin{figure}
+ \includegraphics[width=0.9\columnwidth]{./figures/loss_vs_epoch_w_inset.pdf}
+ \caption{The training loss curve for each model we trained.  Monitoring the training loss during optimization indicates at which point a model is sufficiently converged.  Since the training loss is computed only with the training datasets, it does not necessarily indicate how well the model generalizes to examples it has not yet seen. The convergence seen here indicates that 1000 epochs is an appropriate stopping point for optimization, as further training does not lead to a significant drop in loss.  In the inset, we investigate the ideal number of non-reducing convolution layers, and how increasing the number of such layers affects training time. \label{lossdecrease}}
+\end{figure}
+
+
+%Historically, \DNN have been used to solve the machine learning ``classification problem", where input images are mapped to a finite number of discrete outputs, called labels.  Here we use a final regression layer with a single output enabling us to predict a continuous output function. \todo{Whole paragraph unnecessary, I think}
+
+We used a simple, yet deep neural network architecture (shown in \figref{schematic}) consisting of 19 subsequent convolutional layers. We used the AdaDelta \cite{Zeiler2012} optimization scheme to minimize the loss function (\figref{lossdecrease}), the mean-squared error between the true energy and the \CNN prediction.  A detailed explanation of the network and training process is provided in the Supplementary Information.
+We have used a custom-built multi-GPU (graphical processing unit) implementation of TensorFlow \cite{GoogleResearch2015} to train the neural network.  Unless otherwise specified, all training datasets consisted of 200,000 training examples and training was run for 1000 epochs.  All reported errors are based on evaluating the trained model on validation datasets consisting of 50,000 potentials not accessible to the network during the training process.
+
+\exclude{7 primary convolutional layers operate with 64 kernels of size $3\times3$ and a $2\times2$ stride, effectively halving the resolution of the image at each stage. In between these primary layers, 12 secondary convolutional layers are used. These secondary layers each operate with a $4\times 4$ kernel, 16 outputs, and a unit stride, preserving the resolution but increasing the number of trainable parameters.  In the inset of \figref{lossdecrease} we investigated other network configurations, varying the number of these intermediate layers. We found that two intermediate layers was the best balance of training speed and error.  The final convolutional layer feeds into a fully-connected layer of width 1024, which is then reduced to a single output value through a fully-connected layer of width 1.  The floating-point output of this layer represents the prediction of the neural network, and is used to compute the loss function during training, defined as the mean-squared error of input label and neural network output.}
+
+
+%\begin{figure}
+% \includegraphics[width=0.45\columnwidth]{./figures/kylenet.pdf}
+% \caption{The neural network architecture we used, consisting primarily of convolutional layers. \label{networkarchitecture}}
+%\end{figure}
+
+
+
+
+
+ 
+
+
+
+
+\section{Results}
+\begin{figure*}
+ \includegraphics[width=0.95\textwidth]{./figures/results_01_.pdf}
+ \caption{Histograms of the true vs. predicted energies for each example in the test set indicate the performance of the various models.  The insets show the distribution of error away from the diagonal line representing perfect predictions. A $1\ \text{mHa}^2$ square bin is used for the main histograms, and a 1 mHa bin size for the inset histogram. During training, the neural network was not exposed to the examples on which theses plots are based. The higher error at high energies in (d) is due to fewer training examples being present the dataset at these energies. The histogram shown in (d) is for the further-trained model, described in the text. \label{results01}}
+\end{figure*}
+
+
+\figref{results01}(a-d) displays the results for the \SHO, \IW, \DIG, and \RND potentials.  The \SHO, being one of the simplest potentials, performed extremely well. The trained model was able to predict the ground state energies with a median absolute error (\MAE) of \MAEho.
+
+The \IW potentials performed moderately well with a \MAE of \MAEiw. This is notably poorer than the \SHO potentials, despite their similarity in being analytically dependent upon two simple parameters. This is likely due to the sharp discontinuity associated with the \IW potentials, combined with the sparsity of information present in the binary-valued potentials.
+
+The model trained on the \DIG potentials performed moderately well with a \MAE of \MAEig and the \RND potentials performed quite well with a \MAE of 2.13 MHa.  We noticed, however, that the loss was not completely converged at 1000 epochs, so we provided an additional 200,000 training examples to the network and allowed it to train for an additional 1000 epochs.  With this added training, the the model performed exceptionally well, with a \MAE of \MAErnd, below the threshold of chemical accuracy (1 kcal/mol, 1.6 MHa).  In \figref{results01}(d), it is evident that the model performs more poorly at high energies, a result of the relative absence of high-energy training examples in the dataset. Given the great diversity in this latter set of potentials, it is impressive that the \CNN was able to learn how to predict the energy with such a high degree of accuracy.
+
+%Intuitively, it is well known that more complicated mappings require more training examples, and more time to learn.  
+%With this in mind, we trained a model on a large dataset of one million \RND potentials. 
+%Training this model on 4 NVIDIA GTX 1080 GPUs took \todo{should I even include this?} \todo{(37.7 minutes per epoch)} X weeks.  This performed well with a \MAE of \\MAErndmillion. 
+%(\eprndmillion within $\pm$\etrndmillion). 
+%Given the diversity of input potentials, we consider this the overall best-performing model.
+%\begin{figure}
+% \includegraphics[width=0.999\columnwidth]{./figures/results_02_.pdf}
+% \caption{Heatmaps of the true vs. predicted energies for the model trained on one million \RND potentials and tested on the (a) \RND test dataset, and (b) the \DIG test dataset.  \label{results02}}
+%\end{figure}
+\begin{figure}
+ \includegraphics[width=0.9\columnwidth]{./figures/results_02_.pdf}
+ \caption{Histograms of the true vs. predicted energies for the model trained on the (a) kinetic energy, and (b) excited-state energy of the \DIG. \label{results02}}
+\end{figure}
+% Here is an example of the general form of a table:
+% Fill in the caption in the braces of the \caption{} command. Put the label
+% that you will use with \ref{} command in the braces of the \label{} command.
+% Insert the column specifiers (l, r, c, d, etc.) in the empty braces of the
+% \begin{tabular}{} command.
+% The ruledtabular enviroment adds doubled rules to table and sets a
+% reasonable default table settings.
+% Use the table* environment to get a full-width table in two-column
+% Add \usepackage{longtable} and the longtable (or longtable*}
+% environment for nicely formatted long tables. Or use the the [H]
+% placement option to break a long table (with less control than 
+% in longtable).
+%REMOVE \exclude BELOW TO ENABLE TABLE
+\exclude{
+ \begin{table}%[H] add [H] placement to break table across pages
+ \caption{\label{resultsTable}}
+ \begin{ruledtabular}
+ \begin{tabular}{lcc}
+ Model & Train Examples & \MAE \\
+ \hline
+\SHO  							& 200k		& 	\\MAEho 				 \\ %\\MAEfwhm
+\IW 								& 200k		& 	\\MAEiw 				 \\ %\\MAEfwhm
+\DIG 							& 200k		& 	\\MAEig 				 \\ %\\MAEfwhm
+\RND 							& 200k		& 	\\MAErnd 			 \\ %\\MAEfwhm
+\RND 							& 1M 		& 	\\MAErndcrsho 		 \\ %\\MAEfwhm
+\RND, eval. on \DIG 				& 1M 		& 	\\MAEngexcited		 \\ %\\MAEfwhm
+\RND, $\langle\hat T \rangle$ 	& 1M 		&	\\MAErndke			 \\ %\\MAEfwhm
+ \end{tabular}
+ \end{ruledtabular}
+ \end{table}1
+ }
+
+Now that we have a trained model that performs well on the \RND test set, we investigated how this trained model transfers to the other classes of potentials.  The model trained on the \RND dataset is able to predict the ground-state energy of the \DIG potentials with a \MAE of \MAErndcrig. We can see in \figref{results02}(c) that the model fails at high energies, an expected result given that the model was not exposed to many examples in this energy regime during training on the overall lower-energy \RND dataset.  This moderately good performance is not entirely surprising; the production of the \RND potentials includes an element of Gaussian blurring, so the neural network would have been exposed to features similar to what it would see in the \DIG dataset.  However, this moderate performance is testament to the transferability of \CNN models.
+
+The total energy is just one of the many quantities associated with these one-electron systems. To demonstrate the applicability of \DNN to other quantities, we trained a model on the first excited-state energy $\varepsilon_1$ of the \DIG potentials.  The model achieved a \MAE of \MAEngexcited. We now have two separate models capable of predicting the ground-state, and first excited-state energies, respectively, demonstrating that a neural network can learn quantities other than the ground-state energy.
+
+The ground-state and first excited-state are both eigenvalues of the Hamiltonian.  Finally, we investigated the training of a model on the expectation value of the kinetic energy, $\langle \hat T \rangle = \langle \psi_0 | \hat T | \psi_0 \rangle $, under the ground state wavefunction $\psi_0$ that we computed numerically for the \RND potentials. Since $\hat H$ and $\hat T$ do not commute, the prediction of $\langle \hat T \rangle$ can no longer be summarized as an eigenvalue problem. The trained model predicts the kinetic energy value with a \MAE of \MAErndke. While the spread of testing examples in \figref{results02}(a) suggests the model performs more poorly, the absolute error is still small.
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Conclusions}
+
+\exclude{
+%\section{Discussion}
+%\subsection{\CNN over other methods}
+
+Given the wide variety of machine learning methods which exist, one might question the choice of \CNNs over other ``simpler'' approaches. Indeed, it is only in recent years that the widespread availability of accelerator hardware and software such as GPUs has made it possible to use this computationally heavy approach for practical problems. Convolutional neural networks seem like a good choice for a number of important reasons:
+
+\begin{enumerate}
+\item Convolutional operations make use of the spatial structure of the data. Physical quantities and phenomena (e.g. the electrostatic potential, electron density, and N-body wavefunction) are amenable to \CNN.
+\item The computational requirements for \CNN are easily parallelized.  The training workload for more involved problems can be distributed across large computing platforms \cite{GoogleResearch2015}.
+\item The recent successes of \CNN mean there continues to be a strong community drive to develop efficient and scalable implementations. This has resulted in rapid development of scalable implementations which make use of modern hardware architectures (including multi-GPU, multi-node distributed systems). 
+\item The diverse options in \DNN architectures allow for a flexible ``basis'' for more complicated problems. Other machine learning methods require feature selection. \DNN have consistently proven their ability to extract meaningful relationships from structured data without extensive intervention.
+\end{enumerate}
+}
+
+In summary, convolutional \DNN are likely particularly well suited for electronic structure calculations as they are designed for data which has a spatial encoding of information. 
+For this case, even though our \CNN produces a highly accurate result, and does so much faster than our likely less-than-optimal finite-difference numerical solver, the time-to-solution is sufficiently small in absolute terms that the application of a \CNN is not revolutionary.  However, as the number of electrons in a system increases, the computational complexity grows polynomially.  Accurate electronic structure methods (e.g. coupled cluster) exhibit a scaling with respect to the number of particles of $N^7$ and even the popular Kohn-Sham formalism of density functional theory scales as $N^3$ \cite{Kohn1995,Kucharski1992}.  The evaluation of a convolutional neural network exhibits no such scaling, and while the training process for more complicated systems would be more expensive, this is a one-time cost.
+
+
+In this work, we have taken a simple problem (one electron in a confining potential), and demonstrated that a convolutional neural network can learn the mapping between $V(r)$ and the ground-state energy $\varepsilon_0$ as well as the kinetic energy $\langle\hat T\rangle$, and first excited-state energy $\varepsilon_1$.  Although our focus here has been on a particular type of problem, namely an electron in a confining 2D well, the concepts here are directly applicable to many problems in physics and engineering. Ultimately, we have demonstrated the ability of a \DNN to learn, through example alone, how to rapidly approximate the solution to a set of partial differential equations.  A generalizable, transferable deep learning approach to solving partial differential equations would impact all fields of theoretical physics and mathematics.
+
+
+\wcexclude{
+\section{Acknowledgements}
+
+The authors would like to acknowledge fruitful discussions with P. Bunker, P. Darancet, D. Klug, and  D. Prendergast. K.M. and I.T. acknowledge funding from NSERC and SOSCIP. Compute resources were provided by SOSCIP, Compute Canada, NRC, and an NVIDIA Faculty Hardware Grant.
+
+}
+
+
+
+%Deep learning offers a fundamentally new approach to solving the electronic structure problem. The general equations of quantum mechanics are known, yet the difficulty in numerically solving these equations makes them inapplicable to many systems of interest. The vast number of publications annually based upon approximations of these equations (predominantly Kohn-Sham density functional theory) highlight the impact that replacing, or even augmenting the current approaches with a deep-learning approach could have on the field.
+
+%We have demonstrated the ability of a \DNN to learn a physical quantity directly from the underlying electrostatic potential, effectively bypassing the need to compute a wavefunction (or density). 
+
+
+
+
+
+
+
+% Put \label in argument of \section for cross-referencing
+%\section{\label{}}
+%\subsection{}
+%\subsubsection{}
+
+% If in two-column mode, this environment will change to single-column
+% format so that long equations can be displayed. Use
+% sparingly.
+%\begin{widetext}
+% put long equation here
+%\end{widetext}
+
+% figures should be put into the text as floats.
+% Use the graphics or graphicx packages (distributed with LaTeX2e)
+% and the \includegraphics macro defined in those packages.
+% See the LaTeX Graphics Companion by Michel Goosens, Sebastian Rahtz,
+% and Frank Mittelbach for instance.
+%
+% Here is an example of the general form of a figure:
+% Fill in the caption in the braces of the \caption{} command. Put the label
+% that you will use with \ref{} command in the braces of the \label{} command.
+% Use the figure* environment if the figure should span across the
+% entire page. There is no need to do explicit centering.
+
+% \begin{figure}
+% \includegraphics{}%
+% \caption{\label{}}
+% \end{figure}
+
+% Surround figure environment with turnpage environment for landscape
+% figure
+% \begin{turnpage}
+% \begin{figure}
+% \includegraphics{}%
+% \caption{\label{}}
+% \end{figure}
+% \end{turnpage}
+
+% tables should appear as floats within the text
+%
+% Here is an example of the gene
+%Intuitively, it is well known that more complicated mappings require more training examples, and more time to learn.  
+%With this in mind, we trained a model on a large dataset of one million \RND potentials. 
+%Training this model on 4 NVIDIA GTX 1080 GPUs took \todo{should I even include this?} \todo{(37.7 minutes per epoch)} X weeks.  This performed well with a \MAE of \\MAErndmillion. 
+%(\eprndmillion within $\pm$\etrndmillion). 
+%Given the diversity of input potentials, we consider this the overall best-performing model.
+% ral form of a table:
+% Fill in the caption in the braces of the \caption{} command. Put the label
+% that you will use with \ref{} command in the braces of the \label{} command.
+% Insert the column specifiers (l, r, c, d, etc.) in the empty braces of the
+% \begin{tabular}{} command.
+% The ruledtabular enviroment adds doubled rules to table and sets a
+% reasonable default table settings.
+% Use the table* environment to get a full-width table in two-column
+% Add \usepackage{longtable} and the longtable (or longtable*}
+% environment for nicely formatted long tables. Or use the the [H]
+% placement option to break a long table (with less control than 
+% in longtable).
+% \begin{table}%[H] add [H] placement to break table across pages
+% \caption{\label{}}
+% \begin{ruledtabular}
+% \begin{tabular}{}
+% Lines of table here ending with \\
+% \end{tabular}
+% \end{ruledtabular}
+% \end{table}
+
+% Surround table environment with turnpage environment for landscape
+% table
+% \begin{turnpage}
+% \begin{table}
+% \caption{\label{}}
+% \begin{ruledtabular}
+% \begin{tabular}{}
+% \end{tabular}
+% \end{ruledtabular}
+% \end{table}
+% \end{turnpage}
+
+% Specify following sections are appendices. Use \appendix* if there
+% only one appendix.
+%\appendix
+%\section{}
+
+% If you have acknowledgments, this puts in the proper section head.
+%\begin{acknowledgments}
+% put your acknowledgments here.
+%\end{acknowledgments}
+
+% Create the reference section using BibTeX:
+
+\bibliography{../../../../Mendeley/bibtex/MSc-SchrodingerPaper}
+
+
+\clearpage
+
+%\listoftodos
+
+\end{document}
+%
+% ****** End of file apstemplate.tex ******
+
