@@ -7,4 +7,4 @@
 * Hamiltonian approach -> canonical formulation of quantum mechanics in terms of self-adjoint operators in a Hilbert space
 * Lagrangian approach -> path integral formalation
 ### Lagrangian approach
-$S = \int$
+$$S = \int$$
