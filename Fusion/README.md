@@ -1,4 +1,4 @@
-# Let one topic talk with the other one topic #
+# Let topics talk with each other
 There are some well known conversition between different research areas. I would like to get more intuition from the existing ones and try to touch some new ones.
 ## Existing dialogs ##
 * QFT/String theory and Differential/Algebraic Geometry
