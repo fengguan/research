@@ -1,7 +1,9 @@
 # Quantum Computing
 
 ## resources
-[Book list](https://www.quora.com/What-are-some-good-books-for-learning-quantum-computation)
+[resources from quora](https://www.quora.com/What-are-some-good-books-for-learning-quantum-computation)
+
+Books:
 * [quantum information theory](https://pdfs.semanticscholar.org/23f5/265c6285d14ff99aa6242b10db078c0f287e.pdf)
 * [quantum computation and quantum information](https://pdfs.semanticscholar.org/23f5/265c6285d14ff99aa6242b10db078c0f287e.pdf)
 
