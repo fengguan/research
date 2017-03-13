@@ -9,7 +9,7 @@
 * [Quantum Information Meets Quantum Matter](https://arxiv.org/pdf/1508.02595.pdf)
 
 ### lectures:
-* [preskill CIT lectues](http://www.theory.caltech.edu/people/preskill/ph229/)
+* [preskill CalTech lectues](http://www.theory.caltech.edu/people/preskill/ph229/)
 * [Teaching Computer Scientists Quantum Mechanics](https://arxiv.org/pdf/quant-ph/0207118v1.pdf)
 * [unification of information and matter](http://phys.cts.ntu.edu.tw/workshop/2015/0102/files/14Fudan.pdf)
 
