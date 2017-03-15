@@ -13,7 +13,14 @@
 * [preskill CalTech lectues](http://www.theory.caltech.edu/people/preskill/ph229/)
 * [Teaching Computer Scientists Quantum Mechanics](https://arxiv.org/pdf/quant-ph/0207118v1.pdf)
 * [unification of information and matter](http://phys.cts.ntu.edu.tw/workshop/2015/0102/files/14Fudan.pdf)
+* [IQIM Quantum summit](https://www.youtube.com/watch?v=ZG0EGXZJlBA&feature=share)
 
 ### Authors:
 * [Xiaogang Wen](https://arxiv.org/find/cond-mat/1/au:+Wen_X/0/1/0/all/0/1)
 * [Preskill](http://www.theory.caltech.edu/people/preskill/)
+
+### Institue
+* [IQIM Caltech](http://iqim.caltech.edu/)
+* [StationQ MicroSoft](https://news.microsoft.com/stories/stationq/)
+* [IBMQ IBM](http://research.ibm.com/ibm-q/)
+* [Quantum A.I. Google](https://research.google.com/pubs/QuantumAI.html)
