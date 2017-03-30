@@ -7,7 +7,8 @@
 * [quantum information theory](https://pdfs.semanticscholar.org/23f5/265c6285d14ff99aa6242b10db078c0f287e.pdf)
 * [quantum computation and quantum information](http://www.michaelnielsen.org/qcqi/QINFO-book-nielsen-and-chuang-toc-and-chapter1-nov00.pdf)
 * [Quantum Information Meets Quantum Matter](https://arxiv.org/pdf/1508.02595.pdf)
-* [Quantum shannon theory](https://arxiv.org/abs/1604.07450)
+* [Preskill: Quantum shannon theory](https://arxiv.org/abs/1604.07450)
+* [M.M.Wilde: Quantum shannon theory](https://arxiv.org/pdf/1106.1445.pdf)
 
 ### lectures:
 * [preskill CalTech lectues](http://www.theory.caltech.edu/people/preskill/ph229/)
