@@ -25,3 +25,6 @@
 * [StationQ MicroSoft](https://news.microsoft.com/stories/stationq/)
 * [IBMQ IBM](http://research.ibm.com/ibm-q/)
 * [Quantum A.I. Google](https://research.google.com/pubs/QuantumAI.html)
+
+### news and reports
+* [quantum computing report](https://quantumcomputingreport.com/)
