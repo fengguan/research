@@ -2,6 +2,7 @@
 
 ## resources
 [resources from quora](https://www.quora.com/What-are-some-good-books-for-learning-quantum-computation)
+[cloud based quantum computing](https://en.wikipedia.org/wiki/Cloud-based_quantum_computing)
 
 ### Books:
 * [quantum information theory](https://pdfs.semanticscholar.org/23f5/265c6285d14ff99aa6242b10db078c0f287e.pdf)
