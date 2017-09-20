@@ -17,6 +17,9 @@
 * [unification of information and matter](http://phys.cts.ntu.edu.tw/workshop/2015/0102/files/14Fudan.pdf)
 * [IQIM Quantum summit](https://www.youtube.com/watch?v=ZG0EGXZJlBA&feature=share)
 
+### Papers:
+* [Four revolutions in physics and the second quantum revolution -- a unification of force and matter by quantum information](https://arxiv.org/pdf/1709.03824.pdf)
+
 ### Authors:
 * [Xiaogang Wen](https://arxiv.org/find/cond-mat/1/au:+Wen_X/0/1/0/all/0/1)
 * [Preskill](http://www.theory.caltech.edu/people/preskill/)
