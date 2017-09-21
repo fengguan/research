@@ -10,6 +10,7 @@
 * [Quantum Information Meets Quantum Matter](https://arxiv.org/pdf/1508.02595.pdf)
 * [Preskill: Quantum shannon theory](https://arxiv.org/abs/1604.07450)
 * [M.M.Wilde: Quantum shannon theory](https://arxiv.org/pdf/1106.1445.pdf)
+* [Tensor Category](http://www-math.mit.edu/~etingof/egnobookfinal.pdf)
 
 ### lectures:
 * [preskill CalTech lectues](http://www.theory.caltech.edu/people/preskill/ph229/)
@@ -21,6 +22,9 @@
 ### Papers:
 * [Four revolutions in physics and the second quantum revolution -- a unification of force and matter by quantum information](https://arxiv.org/pdf/1709.03824.pdf)
 * [Quantum computing and entanglement for mathematicians](http://www.math.ucsd.edu/~nwallach/venice.pdf)
+* [invariant theory of tensor networks](https://etda.libraries.psu.edu/files/final_submissions/10540)
+* 
+
 ### Authors:
 * [Xiaogang Wen](https://arxiv.org/find/cond-mat/1/au:+Wen_X/0/1/0/all/0/1)
 * [Preskill](http://www.theory.caltech.edu/people/preskill/)
