@@ -18,7 +18,7 @@
 * [unification of information and matter](http://phys.cts.ntu.edu.tw/workshop/2015/0102/files/14Fudan.pdf)
 * [IQIM Quantum summit](https://www.youtube.com/watch?v=ZG0EGXZJlBA&feature=share)
 * [quantum-computing-for-the-determined](http://www.math.ucsd.edu/~nwallach/venice.pdf)
-
+* [The Holographic Principle: Why Deep Learning Works](https://medium.com/intuitionmachine/the-holographic-principle-and-deep-learning-52c2d6da8d9)
 ### Papers:
 * [Four revolutions in physics and the second quantum revolution -- a unification of force and matter by quantum information](https://arxiv.org/pdf/1709.03824.pdf)
 * [Quantum computing and entanglement for mathematicians](http://www.math.ucsd.edu/~nwallach/venice.pdf)
