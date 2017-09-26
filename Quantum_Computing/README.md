@@ -20,6 +20,7 @@
 * [quantum-computing-for-the-determined](http://www.math.ucsd.edu/~nwallach/venice.pdf)
 * [The Holographic Principle: Why Deep Learning Works](https://medium.com/intuitionmachine/the-holographic-principle-and-deep-learning-52c2d6da8d9)
 * [Tensor Networks: Putting Quantum Wavefunctions into Machine Learning](https://physicsml.github.io/tensor-network.html)
+* [machine-learning-and-many-body-physics conference](http://kits.ucas.ac.cn/index.php/events/workshop/52-machine-learning-and-many-body-physics-jun-28th-jul-7th-2017)
 
 ### Papers:
 * [Four revolutions in physics and the second quantum revolution -- a unification of force and matter by quantum information](https://arxiv.org/pdf/1709.03824.pdf)
