@@ -23,7 +23,8 @@
 * [Four revolutions in physics and the second quantum revolution -- a unification of force and matter by quantum information](https://arxiv.org/pdf/1709.03824.pdf)
 * [Quantum computing and entanglement for mathematicians](http://www.math.ucsd.edu/~nwallach/venice.pdf)
 * [invariant theory of tensor networks](https://etda.libraries.psu.edu/files/final_submissions/10540)
-* 
+* Xun Gao, Lu-Ming Duan [deeplearning and quantum information](https://arxiv.org/pdf/1701.05039.pdf)
+* [advances in tensor network](https://arxiv.org/pdf/1407.6552v2.pdf)
 
 ### Authors:
 * [Xiaogang Wen](https://arxiv.org/find/cond-mat/1/au:+Wen_X/0/1/0/all/0/1)
