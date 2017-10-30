@@ -14,4 +14,5 @@ Project:
 * Tensor category
   - searching for a read list
 * Group coholomogy
-  - searching for a read list
+  - searching for a read list
+* Maybe it is the time to change basic math from add/minus to K-theory, rather than using math to describe K-theory
