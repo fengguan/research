@@ -30,6 +30,7 @@
 * [invariant theory of tensor networks](https://etda.libraries.psu.edu/files/final_submissions/10540)
 * Xun Gao, Lu-Ming Duan [deeplearning and quantum information](https://arxiv.org/pdf/1701.05039.pdf)
 * [advances in tensor network](https://arxiv.org/pdf/1407.6552v2.pdf)
+* [Opportunities and challenges for quantum-assisted machine learning in near-term quantum computers](https://arxiv.org/pdf/1708.09757.pdf)
 
 ### Authors:
 * [Xiaogang Wen](https://arxiv.org/find/cond-mat/1/au:+Wen_X/0/1/0/all/0/1)
