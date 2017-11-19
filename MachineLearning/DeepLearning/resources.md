@@ -5,6 +5,7 @@
 * [build-a-super-fast-deep-learning-machine-for-under-1000](https://www.oreilly.com/learning/how-to-build-and-run-your-first-deep-learning-network)
 * [AWS deep learning AMI](https://aws.amazon.com/blogs/ai/get-started-with-deep-learning-using-the-aws-deep-learning-ami/)
 * [lets-do-some-deep-learning-on-the-amazon-cloud](https://medium.com/sigmoidal/tensorflow-1-0-is-here-lets-do-some-deep-learning-on-the-amazon-cloud-9234eab31fa5)
+* [AWS instance pricing](https://aws.amazon.com/ec2/pricing/on-demand/)
 ## Deep projects
 * [6 Deep Learning Applications a beginner can build in minutes (using Python)](https://www.analyticsvidhya.com/blog/2017/02/6-deep-learning-applications-beginner-python/)
 * [How to build and run your first deep learning network](https://www.oreilly.com/learning/how-to-build-and-run-your-first-deep-learning-network)
