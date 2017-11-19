@@ -2,7 +2,7 @@
 * [deeplearning book](http://www.deeplearningbook.org/)
 
 ## Building a deeplearning machine (physical or remote)
-* [https://www.oreilly.com/learning/build-a-super-fast-deep-learning-machine-for-under-1000](https://www.oreilly.com/learning/how-to-build-and-run-your-first-deep-learning-network)
+* [build-a-super-fast-deep-learning-machine-for-under-1000](https://www.oreilly.com/learning/how-to-build-and-run-your-first-deep-learning-network)
 * [AWS deep learning AMI](https://aws.amazon.com/blogs/ai/get-started-with-deep-learning-using-the-aws-deep-learning-ami/)
 
 ## Deep projects
