@@ -9,5 +9,6 @@
 [6 Deep Learning Applications a beginner can build in minutes (using Python)](https://www.analyticsvidhya.com/blog/2017/02/6-deep-learning-applications-beginner-python/)
 [How to build and run your first deep learning network](https://www.oreilly.com/learning/how-to-build-and-run-your-first-deep-learning-network)
 
-## visualizing tensorflow
+## tensorflow
 [tensorflow-visualization](https://blog.jakuba.net/2017/05/30/tensorflow-visualization.html)
+[tensorflow-debugging](https://wookayin.github.io/tensorflow-talk-debugging/#1)
