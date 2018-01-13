@@ -1,5 +1,6 @@
 ## Books and websites
 * [deeplearning book](http://www.deeplearningbook.org/)
+* [differenciable programming](https://arxiv.org/pdf/1611.01988.pdf)
 
 ## Building a deeplearning machine (physical or remote)
 * [build-a-super-fast-deep-learning-machine-for-under-1000](https://www.oreilly.com/learning/how-to-build-and-run-your-first-deep-learning-network)
