@@ -23,6 +23,9 @@
 * [Tensor Networks: Putting Quantum Wavefunctions into Machine Learning](https://physicsml.github.io/tensor-network.html)
 * [machine-learning-and-many-body-physics conference](http://kits.ucas.ac.cn/index.php/events/workshop/52-machine-learning-and-many-body-physics-jun-28th-jul-7th-2017)
 * [topological insulator](https://www.youtube.com/watch?v=L3CNQZd5thI)
+* [Quantum information course: Perimeter institute](http://pirsa.org/C15009)
+* [Canadian summer school of quantum information](https://www.youtube.com/watch?v=Q4xBlSi_fOs&list=PLq2e2Zi6KW-uHqylI-9paEJEj2zIS6dD-)
+* [functional analysis in quantum information theory](https://www.youtube.com/watch?v=Hj9XKmPVE-E&list=PLD3E479AB374A718F)
 
 ### Papers:
 * [Four revolutions in physics and the second quantum revolution -- a unification of force and matter by quantum information](https://arxiv.org/pdf/1709.03824.pdf)
