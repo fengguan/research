@@ -18,7 +18,7 @@
 * [Teaching Computer Scientists Quantum Mechanics](https://arxiv.org/pdf/quant-ph/0207118v1.pdf)
 * [unification of information and matter](http://phys.cts.ntu.edu.tw/workshop/2015/0102/files/14Fudan.pdf)
 * [IQIM Quantum summit](https://www.youtube.com/watch?v=ZG0EGXZJlBA&feature=share)
-* [quantum-computing-for-the-determined](http://www.math.ucsd.edu/~nwallach/venice.pdf)
+* [quantum-computing-for-the-determined](http://michaelnielsen.org/blog/quantum-computing-for-the-determined/)
 * [The Holographic Principle: Why Deep Learning Works](https://medium.com/intuitionmachine/the-holographic-principle-and-deep-learning-52c2d6da8d9)
 * [Tensor Networks: Putting Quantum Wavefunctions into Machine Learning](https://physicsml.github.io/tensor-network.html)
 * [machine-learning-and-many-body-physics conference](http://kits.ucas.ac.cn/index.php/events/workshop/52-machine-learning-and-many-body-physics-jun-28th-jul-7th-2017)
