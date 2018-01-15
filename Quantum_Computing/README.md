@@ -35,6 +35,7 @@
 * [advances in tensor network](https://arxiv.org/pdf/1407.6552v2.pdf)
 * [Opportunities and challenges for quantum-assisted machine learning in near-term quantum computers](https://arxiv.org/pdf/1708.09757.pdf)
 * [An efficient quantum algorithm for generative machine learning](https://arxiv.org/abs/1711.02038)
+* [Overview of quantum algorithms (applications)](https://arxiv.org/pdf/1511.04206.pdf)
 
 ### Authors:
 * [Xiaogang Wen](https://arxiv.org/find/cond-mat/1/au:+Wen_X/0/1/0/all/0/1)
