@@ -11,6 +11,6 @@
 - [Lecture Notes on General Relativity UCSB](https://arxiv.org/pdf/gr-qc/9712019.pdf)
 
 ## Black hole and holographic universe
-- [susskind's book](http://staff.ustc.edu.cn/~wzhao7/c_index_files/main.files/blackhole.pdf)
+- [Prof. Susskind's book](http://staff.ustc.edu.cn/~wzhao7/c_index_files/main.files/blackhole.pdf)
 
 
