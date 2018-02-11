@@ -13,6 +13,7 @@
 * [Preskill: Quantum shannon theory](https://arxiv.org/abs/1604.07450)
 * [M.M.Wilde: Quantum shannon theory](https://arxiv.org/pdf/1106.1445.pdf)
 * [Tensor Category](http://www-math.mit.edu/~etingof/egnobookfinal.pdf)
+* [Quantum computing: from linear algebra to physical realizations](http://sci.neyshabur.ac.ir/sci/images/electricalengineering/ebook/QUANTUM%20COMPUTING%20-%202008.pdf)
 
 ### lectures:
 * [preskill CalTech lectues](http://www.theory.caltech.edu/people/preskill/ph229/)
