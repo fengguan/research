@@ -8,6 +8,7 @@
 ## General relativity lecture notes
 - [General relativity for mathematicians](https://archive.org/details/springer_10.1007-978-1-4612-9903-5)
 - [semi-reimannian geometry](https://profs.basu.ac.ir/h-abedi/upload_file/semi-riemannian%20geometry%20with%20applications%20to%20relativity(799.2816.file_ref.3002.3325).pdf)
+- [Semi-Riemann Geometry and General Relativity by Shlomo Sternberg](http://www.math.harvard.edu/~shlomo/docs/semi_riemannian_geometry.pdf)
 - [Lecture Notes on General Relativity Columbia University](https://web.math.princeton.edu/~aretakis/columbiaGR.pdf)
 - [Lecture Notes on General Relativity UCSB](https://arxiv.org/pdf/gr-qc/9712019.pdf)
 
