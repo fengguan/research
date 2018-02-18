@@ -12,6 +12,7 @@
 - [Lecture Notes on General Relativity Columbia University](https://web.math.princeton.edu/~aretakis/columbiaGR.pdf)
 - [Lecture Notes on General Relativity UCSB](https://arxiv.org/pdf/gr-qc/9712019.pdf)
 - [Geometry of Black Holes by Piotr T. Chruściel](https://homepage.univie.ac.at/piotr.chrusciel/teaching/Black%20Holes/BlackHolesViennaJanuary2015.pdf)
+- [Lectures on Gravity and Entanglement](https://arxiv.org/pdf/1609.00026.pdf)
 ## Black hole and holographic universe
 - [Prof. Susskind's book](http://staff.ustc.edu.cn/~wzhao7/c_index_files/main.files/blackhole.pdf)
 
