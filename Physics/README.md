@@ -21,7 +21,7 @@
 - [Differential Geometry on the Renormalization Bundle](http://math.bu.edu/research/mathphys/seminar10_18.pdf)
 - [Renormalization group equations and geometric flows](https://arxiv.org/abs/hep-th/0702034)
 - [A Geometric Renormalisation Group in Discrete Quantum Space-Time](https://arxiv.org/pdf/gr-qc/0110077.pdf)
-- [The Geometry of Renormalization] (http://www.math.jhu.edu/webarchive/grad/susama_agarwala_thesis.pdf)
+- [The Geometry of Renormalization](http://www.math.jhu.edu/webarchive/grad/susama_agarwala_thesis.pdf)
 
 ## Information geometry and remormalization group
 * [Information geometry and the renormalization group: Archishman Raju, Benjamin B. Machta, and James P. Sethna](https://arxiv.org/pdf/1710.05787.pdf)
