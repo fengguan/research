@@ -16,4 +16,8 @@
 ## Black hole and holographic universe
 - [Prof. Susskind's book](http://staff.ustc.edu.cn/~wzhao7/c_index_files/main.files/blackhole.pdf)
 
+## Information geometry and remormalization group
+* [Information geometry and the renormalization group: Archishman Raju, Benjamin B. Machta, and James P. Sethna](https://arxiv.org/pdf/1710.05787.pdf)
+* [Information geometry and the renormalization group: Reevu Maity, Subhash Mahapatra, Tapobrata Sarkar](https://arxiv.org/pdf/1503.03978.pdf)
+* [Information-geometric approach to the renormalization group: Cédric Bény and Tobias J. Osborne](https://arxiv.org/pdf/1206.7004.pdf)
 
