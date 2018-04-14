@@ -16,6 +16,13 @@
 ## Black hole and holographic universe
 - [Prof. Susskind's book](http://staff.ustc.edu.cn/~wzhao7/c_index_files/main.files/blackhole.pdf)
 
+## Renormalization Group
+- [RENORMALIZATION: papers](http://web.mit.edu/redingtn/www/netadv/Xrenormali.html)
+- [Differential Geometry on the Renormalization Bundle](http://math.bu.edu/research/mathphys/seminar10_18.pdf)
+- [Renormalization group equations and geometric flows](https://arxiv.org/abs/hep-th/0702034)
+- [A Geometric Renormalisation Group in Discrete Quantum Space-Time](https://arxiv.org/pdf/gr-qc/0110077.pdf)
+- [The Geometry of Renormalization] (http://www.math.jhu.edu/webarchive/grad/susama_agarwala_thesis.pdf)
+
 ## Information geometry and remormalization group
 * [Information geometry and the renormalization group: Archishman Raju, Benjamin B. Machta, and James P. Sethna](https://arxiv.org/pdf/1710.05787.pdf)
 * [Information geometry and the renormalization group: Reevu Maity, Subhash Mahapatra, Tapobrata Sarkar](https://arxiv.org/pdf/1503.03978.pdf)
