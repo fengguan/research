@@ -38,6 +38,8 @@
 * [Opportunities and challenges for quantum-assisted machine learning in near-term quantum computers](https://arxiv.org/pdf/1708.09757.pdf)
 * [An efficient quantum algorithm for generative machine learning](https://arxiv.org/abs/1711.02038)
 * [Overview of quantum algorithms (applications)](https://arxiv.org/pdf/1511.04206.pdf)
+* [on-the-raz-tal-oracle-separation-of-bqp-and-ph](https://windowsontheory.org/2018/06/17/on-the-raz-tal-oracle-separation-of-bqp-and-ph/)
+* [raz-tal-oracle-separation-of-bqp-and-ph](https://eccc.weizmann.ac.il/report/2018/107/)
 
 ### Authors:
 * [Xiaogang Wen](https://arxiv.org/find/cond-mat/1/au:+Wen_X/0/1/0/all/0/1)
