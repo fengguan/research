@@ -14,6 +14,7 @@
 * [M.M.Wilde: Quantum shannon theory](https://arxiv.org/pdf/1106.1445.pdf)
 * [Tensor Category](http://www-math.mit.edu/~etingof/egnobookfinal.pdf)
 * [Quantum computing: from linear algebra to physical realizations](http://sci.neyshabur.ac.ir/sci/images/electricalengineering/ebook/QUANTUM%20COMPUTING%20-%202008.pdf)
+* [Quantum Field Theory of Many-body Systems by Xiaogang Wen](http://dao.mit.edu/~wen/book/preintro.pdf)
 
 ### lectures:
 * [preskill CalTech lectues](http://www.theory.caltech.edu/people/preskill/ph229/)
@@ -40,6 +41,8 @@
 * [Overview of quantum algorithms (applications)](https://arxiv.org/pdf/1511.04206.pdf)
 * [on-the-raz-tal-oracle-separation-of-bqp-and-ph](https://windowsontheory.org/2018/06/17/on-the-raz-tal-oracle-separation-of-bqp-and-ph/)
 * [raz-tal-oracle-separation-of-bqp-and-ph](https://eccc.weizmann.ac.il/report/2018/107/)
+* [Many-body localization, symmetry, and topology](https://arxiv.org/abs/1801.07731)
+* [Many-body localization: an introduction and selected topics](https://arxiv.org/abs/1711.03145)
 
 ### Authors:
 * [Xiaogang Wen](https://arxiv.org/find/cond-mat/1/au:+Wen_X/0/1/0/all/0/1)
