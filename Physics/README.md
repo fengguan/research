@@ -1,4 +1,5 @@
 # Physics #
+All the measures of one measurable agree with each other.
 
 ## Lectures:
 - [Quantum information course: Perimeter institute](http://pirsa.org/C15009)
