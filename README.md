@@ -16,3 +16,8 @@ Project:
 * Group coholomogy
   - searching for a read list
 * Maybe it is the time to change basic math from add/minus to K-theory, rather than using math to describe K-theory
+* From ... to ...
+  * From local to global
+  * From continues to discrete
+  * From material to infomation
+  * From 
