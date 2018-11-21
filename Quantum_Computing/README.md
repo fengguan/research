@@ -43,6 +43,8 @@
 * [raz-tal-oracle-separation-of-bqp-and-ph](https://eccc.weizmann.ac.il/report/2018/107/)
 * [Many-body localization, symmetry, and topology](https://arxiv.org/abs/1801.07731)
 * [Many-body localization: an introduction and selected topics](https://arxiv.org/abs/1711.03145)
+* [Exact Equivalence between Quantum Adiabatic Algorithm and Quantum Circuit Algorithm](https://arxiv.org/pdf/1706.07646.pdf)
+* [Adiabatic Quantum Computation is Equivalent to Standard Quantum Computation](https://arxiv.org/pdf/quant-ph/0405098.pdf)
 
 ### Authors:
 * [Xiaogang Wen](https://arxiv.org/find/cond-mat/1/au:+Wen_X/0/1/0/all/0/1)
