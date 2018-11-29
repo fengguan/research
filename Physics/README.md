@@ -21,6 +21,9 @@ All the measures of one measurable agree with each other.
 
 ## Black hole and holographic universe
 - [Prof. Susskind's book](http://staff.ustc.edu.cn/~wzhao7/c_index_files/main.files/blackhole.pdf)
+- [Lectures on holographic methods for condensed matter physics](https://arxiv.org/pdf/0903.3246.pdf)
+- [Holographic quantum matter](https://arxiv.org/pdf/1612.07324.pdf)
+- [Holographic Superconductors](https://arxiv.org/abs/0810.1563)
 
 ## Renormalization Group
 - [RENORMALIZATION: papers](http://web.mit.edu/redingtn/www/netadv/Xrenormali.html)
