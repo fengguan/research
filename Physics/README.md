@@ -19,7 +19,7 @@ All the measures of one measurable agree with each other.
 - [QUANTUM FIELD THEORY notes, Berkley](https://arxiv.org/pdf/math-ph/0204014.pdf)
 - [QUANTUM FIELD THEORY notes, IAS Princeton](http://www.math.ias.edu/qft)
 - [Towards the mathematics of quantum field theory](https://webusers.imj-prg.fr/~frederic.paugam/documents/enseignement/master-mathematical-physics.pdf)
-- [Resources of QFT for mathematicians](* http://www.math.columbia.edu/~woit/qftnotes1.pdf)
+- [Resources of QFT for mathematicians](http://www.math.columbia.edu/~woit/qftnotes1.pdf)
 - [IAS lecture notes and problem set](https://www.math.ias.edu/qft)
 
 ## Black hole and holographic universe
