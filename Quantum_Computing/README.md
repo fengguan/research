@@ -54,6 +54,7 @@
 * [Preskill](http://www.theory.caltech.edu/people/preskill/)
 * [shoucheng zhang](http://so5.stanford.edu/)
 * [Luming Duan](https://scholar.google.com/citations?hl=en&user=ULkJQpkAAAAJ&view_op=list_works&sortby=pubdate)
+* [David Mermin](http://www.lassp.cornell.edu/mermin/)
 
 ### Institue
 * [IQIM Caltech](http://iqim.caltech.edu/)
