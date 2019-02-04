@@ -5,6 +5,7 @@
 * [cloud based quantum computing](https://en.wikipedia.org/wiki/Cloud-based_quantum_computing)
 * [physics|machine|learning](https://physicsml.github.io/)
 * [quantum algorithm zoo](https://math.nist.gov/quantum/zoo/)
+* [MIT introduction](http://www.mit.edu/~aram/advice/quantum.html)
 
 ### Books:
 * [quantum information theory](https://pdfs.semanticscholar.org/23f5/265c6285d14ff99aa6242b10db078c0f287e.pdf)
@@ -18,6 +19,7 @@
 
 ### lectures:
 * [preskill CalTech lectues](http://www.theory.caltech.edu/people/preskill/ph229/)
+* [David Mermin's lecture notes](http://www.lassp.cornell.edu/mermin/qcomp/CS483.html)
 * [Teaching Computer Scientists Quantum Mechanics](https://arxiv.org/pdf/quant-ph/0207118v1.pdf)
 * [unification of information and matter](http://phys.cts.ntu.edu.tw/workshop/2015/0102/files/14Fudan.pdf)
 * [IQIM Quantum summit](https://www.youtube.com/watch?v=ZG0EGXZJlBA&feature=share)
