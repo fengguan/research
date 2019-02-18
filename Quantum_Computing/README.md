@@ -57,7 +57,7 @@
 * [shoucheng zhang](http://so5.stanford.edu/)
 * [Luming Duan](https://scholar.google.com/citations?hl=en&user=ULkJQpkAAAAJ&view_op=list_works&sortby=pubdate)
 * [David Mermin](http://www.lassp.cornell.edu/mermin/)
-
+* [Zhenghan Wang](https://www.researchgate.net/scientific-contributions/2037737565_Zhenghan_Wang/amp)
 ### Institue
 * [IQIM Caltech](http://iqim.caltech.edu/)
 * [StationQ MicroSoft](https://news.microsoft.com/stories/stationq/)
