@@ -50,6 +50,7 @@
 * [Adiabatic Quantum Computation is Equivalent to Standard Quantum Computation](https://arxiv.org/pdf/quant-ph/0405098.pdf)
 * [Adiabatic Quantum Computing](https://arxiv.org/pdf/1611.04471.pdf)
 * [Quantum_Machine_Learning](https://www.researchgate.net/publication/311067084_Quantum_Machine_Learning)
+* [MATHEMATICS OF TOPOLOGICAL QUANTUM COMPUTING](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/09/MTQC-1.pdf)
 
 ### Authors:
 * [Xiaogang Wen](https://arxiv.org/find/cond-mat/1/au:+Wen_X/0/1/0/all/0/1)
