@@ -51,6 +51,7 @@
 * [Adiabatic Quantum Computing](https://arxiv.org/pdf/1611.04471.pdf)
 * [Quantum_Machine_Learning](https://www.researchgate.net/publication/311067084_Quantum_Machine_Learning)
 * [MATHEMATICS OF TOPOLOGICAL QUANTUM COMPUTING](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/09/MTQC-1.pdf)
+* [扭结与量子计算](http://web.math.ucsb.edu/~zhenghwa/data/research/pub/sxtb.pdf)
 
 ### Authors:
 * [Xiaogang Wen](https://arxiv.org/find/cond-mat/1/au:+Wen_X/0/1/0/all/0/1)
