@@ -5,10 +5,13 @@
 
 ### Books
 [Elements_of_abstract_algebra](http://poincare.matf.bg.ac.rs/~zarkom/Book_Math_Clark_Elements_of_abstract_algebra%202.pdf)
+
 [Prof. Robert B. Ash's lecture notes](https://faculty.math.illinois.edu/~r-ash/)
+
 [A Problem Course in Mathematical Logic](http://euclid.trentu.ca/math/sb/pcml/pcml.html)
+
 [The Geometry and Topology of Three-Manifolds](http://library.msri.org/books/gt3m/PDF/Thurston-gt3m.pdf)
-* http://library.msri.org/books/gt3m/
+  * http://library.msri.org/books/gt3m/
 
 
 ### Mathematicians
