@@ -5,6 +5,10 @@
 * [cloud based quantum computing](https://en.wikipedia.org/wiki/Cloud-based_quantum_computing)
 * [physics|machine|learning](https://physicsml.github.io/)
 * [quantum algorithm zoo](https://math.nist.gov/quantum/zoo/)
+  * [Quantum Algorithm Implementations for Beginners](https://arxiv.org/pdf/1804.03719.pdf)
+  * [An Introduction to Quantum Algorithms](https://arxiv.org/pdf/1804.03719.pdf)
+  * [Quantum Algorithm Design: Techniques and Applications](file:///C:/Users/fguan/Downloads/QuantumAlgorithmDesign_TechniquesandApplications.pdf)
+  
 * [MIT introduction](http://www.mit.edu/~aram/advice/quantum.html)
 
 ### Books:
