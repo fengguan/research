@@ -8,6 +8,7 @@
   * [Quantum Algorithm Implementations for Beginners](https://github.com/fengguan/research/tree/master/Quantum_Computing/Quantum_Algorithm)
   * [An Introduction to Quantum Algorithms](https://github.com/fengguan/research/tree/master/Quantum_Computing/Quantum_Algorithm)
   * [Quantum Algorithm Design: Techniques and Applications](https://github.com/fengguan/research/tree/master/Quantum_Computing/Quantum_Algorithm)
+  * [Quantum Algorithms: An overview](https://github.com/fengguan/research/tree/master/Quantum_Computing/Quantum_Algorithm)
   
 * [MIT introduction](http://www.mit.edu/~aram/advice/quantum.html)
 
