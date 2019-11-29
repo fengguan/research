@@ -12,6 +12,7 @@
 
 [The Geometry and Topology of Three-Manifolds](http://library.msri.org/books/gt3m/PDF/Thurston-gt3m.pdf)
   * http://library.msri.org/books/gt3m/
+  
 [The rising sea: foundation of algebraic geometry](http://math.stanford.edu/~vakil/216blog/FOAGnov1817public.pdf)
 
 ### Mathematicians
