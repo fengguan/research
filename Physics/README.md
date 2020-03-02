@@ -5,6 +5,7 @@ All the measures of one measurable agree with each other.
 - [Quantum information course: Perimeter institute](http://pirsa.org/C15009)
 - [Canadian summer school of quantum information](https://www.youtube.com/watch?v=Q4xBlSi_fOs&list=PLq2e2Zi6KW-uHqylI-9paEJEj2zIS6dD-)
 - [functional analysis in quantum information theory](https://www.youtube.com/watch?v=Hj9XKmPVE-E&list=PLD3E479AB374A718F)
+- [知乎：数学和物理的对话](https://zhuanlan.zhihu.com/c_178032739)：内有拓扑序简介课程链接
 
 ## General relativity lecture notes
 - [General relativity for mathematicians](https://archive.org/details/springer_10.1007-978-1-4612-9903-5)
